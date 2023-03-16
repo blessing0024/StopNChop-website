@@ -18,7 +18,7 @@
 
     <!-- This is the header section -->
      
-    <header class="header" active data-header>
+    <header class="header active"  data-header>
         <div class="container">
             <a href="#" class="logo">
                 <img src="images/lg.png" width="100px" height="100px">
@@ -29,7 +29,7 @@
                 </a>
             </h1> -->
 
-            <nav class="navbar" active data-navbar>
+            <nav class="navbar" data-navbar>
                 <ul class="navbar-list">
 
                     <li class="nav-item">
@@ -56,13 +56,13 @@
 
 
             <div class="header-btn-group">
-                <button class="search-btn" data-search>
+                <button class="search-btn" aria-label="Search" data-search-btn>
                     <ion-icon name="search-outline"> </ion-icon>
                 </button>
 
                 <button class="btn-btn-hover">Reservation</button>
 
-                <button class="nav-toggle-btn" active data-menu-toggle>
+                <button class="nav-toggle-btn active" aria-label="Toggle Menu" data-menu-toggle-btn>
                     <span class="line top"></span>
                     <span class="line middle"></span>
                     <span class="line bottom"></span>
@@ -74,7 +74,7 @@
 
     <!-- This is the search section -->
 
-    <div class="search-container" active data-search-container>
+    <div class="search-container" data-search-container>
         <div class="search-box">
             <input class="search-input" type="Search" name="search" placeholder="Enter Food Name">
 
@@ -543,14 +543,14 @@
                             Our Delivery is <span>Swift</span> and Reliable
                         </h2>
 
-                        <p class="section-title">
+                        <p class="section-text">
                             Stop and Chop, Ozoro is one of the best eatery you can find. We have different varieties of food available
                         </p>
-                        <button class="btn-btn-hover">Order Right Now</button>
+                        <button class="btn btn-hover">Order Right Now</button>
                     </div>
 
                     <figure class="delivery-banner">
-                        <img src="images/delivery-banner-bg.png" width="700" height="600">
+                        <img src="images/delivery-banner-bg.png" width="700" height="600" alt="this is a cloud" class="w-100">
 
                         <img src="images/delivery-boy.svg" width="1000" height="800" alt="delivery boy" class="w-100 delivery-img" data-delivery-boy>
                     </figure>
@@ -662,7 +662,7 @@
                 <div class="container">
                     <ul class="banner-list">
 
-                        <li class="banner-item banner-ig">
+                        <li class="banner-item banner-lg">
                             <div class="banner-card">
 
                                 <img src="images/banner-1.jpg" width="550" height="450" alt="A banner design" class="banner-img">
@@ -1012,5 +1012,9 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <script src="script.js" defer></script>
+
 </body>
 </html>
